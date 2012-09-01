@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1851FECF15F1CA44003B26AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851FECE15F1CA44003B26AE /* UIKit.framework */; };
+		1851FED115F1CA44003B26AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851FED015F1CA44003B26AE /* Foundation.framework */; };
+		1851FED315F1CA44003B26AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851FED215F1CA44003B26AE /* CoreGraphics.framework */; };
+		1851FED915F1CA44003B26AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1851FED715F1CA44003B26AE /* InfoPlist.strings */; };
+		1851FEDB15F1CA44003B26AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1851FEDA15F1CA44003B26AE /* main.m */; };
+		1851FEDF15F1CA44003B26AE /* class19AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1851FEDE15F1CA44003B26AE /* class19AppDelegate.m */; };
+		1851FEE215F1CA44003B26AE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1851FEE015F1CA44003B26AE /* MainStoryboard.storyboard */; };
+		1851FEE515F1CA44003B26AE /* class19ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1851FEE415F1CA44003B26AE /* class19ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1851FECA15F1CA44003B26AE /* TestUploadGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUploadGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1851FECE15F1CA44003B26AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1851FED015F1CA44003B26AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1851FED215F1CA44003B26AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1851FED615F1CA44003B26AE /* TestUploadGit-Info.plist */ = {isa = PBXFileReference; path = "TestUploadGit-Info.plist"; sourceTree = "<group>"; };
+		1851FED815F1CA44003B26AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1851FEDA15F1CA44003B26AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1851FEDC15F1CA44003B26AE /* TestUploadGit-Prefix.pch */ = {isa = PBXFileReference; path = "TestUploadGit-Prefix.pch"; sourceTree = "<group>"; };
+		1851FEDD15F1CA44003B26AE /* class19AppDelegate.h */ = {isa = PBXFileReference; path = class19AppDelegate.h; sourceTree = "<group>"; };
+		1851FEDE15F1CA44003B26AE /* class19AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = class19AppDelegate.m; sourceTree = "<group>"; };
+		1851FEE115F1CA44003B26AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1851FEE315F1CA44003B26AE /* class19ViewController.h */ = {isa = PBXFileReference; path = class19ViewController.h; sourceTree = "<group>"; };
+		1851FEE415F1CA44003B26AE /* class19ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = class19ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1851FEC715F1CA44003B26AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1851FECF15F1CA44003B26AE /* UIKit.framework in Frameworks */,
+				1851FED115F1CA44003B26AE /* Foundation.framework in Frameworks */,
+				1851FED315F1CA44003B26AE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1851FEBF15F1CA44003B26AE = {
+			isa = PBXGroup;
+			children = (
+				1851FED415F1CA44003B26AE /* TestUploadGit */,
+				1851FECD15F1CA44003B26AE /* Frameworks */,
+				1851FECB15F1CA44003B26AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1851FECB15F1CA44003B26AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1851FECA15F1CA44003B26AE /* TestUploadGit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1851FECD15F1CA44003B26AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1851FECE15F1CA44003B26AE /* UIKit.framework */,
+				1851FED015F1CA44003B26AE /* Foundation.framework */,
+				1851FED215F1CA44003B26AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1851FED415F1CA44003B26AE /* TestUploadGit */ = {
+			isa = PBXGroup;
+			children = (
+				1851FEDD15F1CA44003B26AE /* class19AppDelegate.h */,
+				1851FEDE15F1CA44003B26AE /* class19AppDelegate.m */,
+				1851FEE015F1CA44003B26AE /* MainStoryboard.storyboard */,
+				1851FEE315F1CA44003B26AE /* class19ViewController.h */,
+				1851FEE415F1CA44003B26AE /* class19ViewController.m */,
+				1851FED515F1CA44003B26AE /* Supporting Files */,
+			);
+			path = TestUploadGit;
+			sourceTree = "<group>";
+		};
+		1851FED515F1CA44003B26AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1851FED615F1CA44003B26AE /* TestUploadGit-Info.plist */,
+				1851FED715F1CA44003B26AE /* InfoPlist.strings */,
+				1851FEDA15F1CA44003B26AE /* main.m */,
+				1851FEDC15F1CA44003B26AE /* TestUploadGit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1851FEC915F1CA44003B26AE /* TestUploadGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1851FEE815F1CA44003B26AE /* Build configuration list for PBXNativeTarget "TestUploadGit" */;
+			buildPhases = (
+				1851FEC615F1CA44003B26AE /* Sources */,
+				1851FEC715F1CA44003B26AE /* Frameworks */,
+				1851FEC815F1CA44003B26AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestUploadGit;
+			productName = TestUploadGit;
+			productReference = 1851FECA15F1CA44003B26AE /* TestUploadGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1851FEC115F1CA44003B26AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = class19;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1851FEC415F1CA44003B26AE /* Build configuration list for PBXProject "TestUploadGit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1851FEBF15F1CA44003B26AE;
+			productRefGroup = 1851FECB15F1CA44003B26AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1851FEC915F1CA44003B26AE /* TestUploadGit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1851FEC815F1CA44003B26AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1851FED915F1CA44003B26AE /* InfoPlist.strings in Resources */,
+				1851FEE215F1CA44003B26AE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1851FEC615F1CA44003B26AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1851FEDB15F1CA44003B26AE /* main.m in Sources */,
+				1851FEDF15F1CA44003B26AE /* class19AppDelegate.m in Sources */,
+				1851FEE515F1CA44003B26AE /* class19ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1851FED715F1CA44003B26AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1851FED815F1CA44003B26AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1851FEE015F1CA44003B26AE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1851FEE115F1CA44003B26AE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1851FEE615F1CA44003B26AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1851FEE715F1CA44003B26AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1851FEE915F1CA44003B26AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestUploadGit/TestUploadGit-Prefix.pch";
+				INFOPLIST_FILE = "TestUploadGit/TestUploadGit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1851FEEA15F1CA44003B26AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestUploadGit/TestUploadGit-Prefix.pch";
+				INFOPLIST_FILE = "TestUploadGit/TestUploadGit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1851FEC415F1CA44003B26AE /* Build configuration list for PBXProject "TestUploadGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1851FEE615F1CA44003B26AE /* Debug */,
+				1851FEE715F1CA44003B26AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1851FEE815F1CA44003B26AE /* Build configuration list for PBXNativeTarget "TestUploadGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1851FEE915F1CA44003B26AE /* Debug */,
+				1851FEEA15F1CA44003B26AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1851FEC115F1CA44003B26AE /* Project object */;
+}
